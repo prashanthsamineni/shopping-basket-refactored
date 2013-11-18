@@ -1,0 +1,101 @@
+****** Background: ******
+--------------------------------------------------
+
+While doing code KATA, I thought of practicing the TDD concepts in an applciation which I have done before without these concepts.
+
+***** Scenario: ******
+---------------------------------------------------
+
+This Shopping cart issues two types of voucher for customers to gain discounts on shopping baskets. 
+ 
+
+Gift Voucher:
+1) Can be redeemed against the value of a basket 
+2) Multiple gift vouchers can be applied to a basket. 
+
+Offer vouchers : 
+1) Have a threshold that needs to be matched or exceeded before a discount can be applied 
+
+e.g. £5.00 off of baskets totalling £50 
+
+2) Only a single offer voucher can be applied to a basket. 
+
+Offer and Gift vouchers can be used in conjunction. If a customer applies an offer voucher to a basket that will not satisfy the threshold or a customer removes an item/changes an items quantity resulting in a vouchers not being valid, a message will be displayed to the customer. 
+
+Gift vouchers can only be redeemed against non gift voucher products and purchase of gift 
+
+vouchers do no contribute to discountable basket total. 
+
+This application represents a basket and has the ability to handle the following 
+
+scenarios: 
+
+Basket 1: 
+
+1 Hat @ £10.50 
+1 Jumper @ £54.65 
+------------ 
+1 x £5.00 Gift Voucher XXX-XXX applied 
+------------ 
+Total: £60.15 
+
+Basket 2: 
+1 Hat @ £25.00 
+1 Jumper @ £26.00 
+------------ 
+1 x £5.00 Gift Voucher XXX-XXX applied 
+1 x £5.00 off baskets over £50.00 Offer Voucher YYY-YYY applied 
+------------ 
+Total: £41.00 
+
+Basket 3: 
+1 Hat @ £25.00 
+1 £30 Gift Voucher @ £30.00 
+------------ 
+1 x £5.00 off baskets over £50.00 Offer Voucher YYY-YYY applied 
+------------ 
+Total: £55.00 
+------------ 
+
+Message: “You have not reached the spend threshold for voucher YYY-YYY. Spend another £25.01 to receive £5.00 discount from your basket total.” 
+
+Basket 4: 
+1 inner tube repair kit @ £3.00 
+1 £30 Gift Voucher @ £30.00 
+------------ 
+1 x £5.00 Gift Voucher XXX-XXX applied 
+------------ 
+Total: £30.00 
+------------ 
+
+Message: “You have £3.00 of credit remaining on gift voucher XXX-XXX.” 
+
+Basket 5: 
+2 Hat @ £26.00 
+------------ 
+1 x £5.00 off baskets over £50.00 Offer Voucher YYY-YYY applied 
+------------ 
+Total: £47.00 
+
+Customer changes qty 
+
+1 Hat @ £26.00 
+------------ 
+1 x £5.00 off baskets over £50.00 Offer Voucher YYY-YYY applied 
+------------ 
+Total: £26.00 
+
+Message: “You have not reached the spend threshold for voucher YYY-YYY. Spend another £24.01 to receive £5.00 discount from your basket total.”
+
+
+***** Technologies Used: ******
+-----------------------------------------------------------
+C#.Net
+
+Testing Framework: Machine Specifications https://github.com/machine/machine.specifications
+
+Mocking Framework: Rhino Mocks
+
+IOC Framework: Castle Windsor and MEF Service Locator
+
+Patterns: Factory and Strategy patterns
