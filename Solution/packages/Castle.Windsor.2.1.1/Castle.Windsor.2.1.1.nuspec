@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Castle.Windsor</id>
+    <version>2.1.1</version>
+    <title>Castle.Windsor</title>
+    <authors>Castle Project Contributors</authors>
+    <owners>Castle Project Contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Castle Project offers two Inversion of Control Containers. The MicroKernel and the Windsor Container.
+
+The Castle MicroKernel is an inversion of control container that was designed towards extensibility. It combines facilities to grow orthogonally. These facilities work side-by-side, without interfering or depending on each other, to allow you to easily extend the container functionality by plugging in new concerns and semantics.
+
+Castle Windsor aggregates the MicroKernel and exposes a powerful configuration support. It is suitable for common enterprise application needs. It is able to register facilities and components based on the configuration and adds support for interceptors.</description>
+    <summary>Castle Project offers two Inversion of Control Containers. The MicroKernel and the Windsor Container.
+
+The Castle MicroKernel is an inversion of control container that was designed towards extensibility. It combines facilities to grow orthogonally. These facilities work side-by-side, without interfering or depending on each other, to allow you to easily extend the container functionality by plugging in new concerns and semantics.
+
+Castle Windsor aggregates the MicroKernel and exposes a powerful configuration support. It is suitable for common enterprise application needs. It is able to register facilities and components based on the configuration and adds support for interceptors.</summary>
+    <dependencies>
+      <dependency id="Castle.Core" version="1.2.0" />
+      <dependency id="Castle.DynamicProxy" version="2.2.0" />
+    </dependencies>
+  </metadata>
+</package>

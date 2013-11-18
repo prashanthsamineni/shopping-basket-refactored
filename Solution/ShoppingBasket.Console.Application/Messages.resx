@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InsufficientFunds" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VoucherApplied" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProductsTitle" xml:space="preserve">
+    <value>Products available are:</value>
+  </data>
+  <data name="ProductDescription" xml:space="preserve">
+    <value>--- £</value>
+  </data>
+  <data name="ProductIdAndTitleSeparator" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="AddProductToShoppingCart" xml:space="preserve">
+    <value>Enter a product Id to add to your cart:</value>
+  </data>
+  <data name="InvalidFormatException" xml:space="preserve">
+    <value>Select the number displayed in the above list</value>
+  </data>
+  <data name="ProductDoesnotExist" xml:space="preserve">
+    <value>Selected product doesnt exist in the list</value>
+  </data>
+  <data name="InvalidQuantity" xml:space="preserve">
+    <value>Please enter correct quantity</value>
+  </data>
+  <data name="SelectAnotherProduct" xml:space="preserve">
+    <value>Please select another product or enter 0 to checkout or enter X to exit</value>
+  </data>
+  <data name="EnterQuantity" xml:space="preserve">
+    <value>Enter Quantity:</value>
+  </data>
+  <data name="YourBasketContains" xml:space="preserve">
+    <value>Your Basket contains:</value>
+  </data>
+  <data name="ShoppingCartItems" xml:space="preserve">
+    <value>Item Id: {0} Product Name : {1} Quantity : {2} Item Price : {3} Total Price : {4} </value>
+  </data>
+  <data name="YourTotalBasketCost" xml:space="preserve">
+    <value>Your Total Basket Cost : {0}</value>
+  </data>
+  <data name="TotalBasketCostWithoutGiftVouchers" xml:space="preserve">
+    <value>Your total basket cost without gift vouchers : {0}</value>
+  </data>
+  <data name="ApplyBelowVoucherCodesAtTheTimeOfCheckout" xml:space="preserve">
+    <value>Apply below voucher codes at the time of checkout</value>
+  </data>
+  <data name="VoucherCodeAndVoucherReason" xml:space="preserve">
+    <value>Code: {0} Applied for: {1}</value>
+  </data>
+  <data name="EnterVoucherCode" xml:space="preserve">
+    <value>Enter Voucher code:</value>
+  </data>
+  <data name="VoucherNotVallid" xml:space="preserve">
+    <value>Entered voucher is not valid</value>
+  </data>
+  <data name="TotalCostAfterDiscount" xml:space="preserve">
+    <value>Total Cost after discount: {0}</value>
+  </data>
+  <data name="VoucherCodeStatusMessage" xml:space="preserve">
+    <value>Message : {0}</value>
+  </data>
+</root>
